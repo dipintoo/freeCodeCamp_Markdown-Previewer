@@ -15,15 +15,15 @@ Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, 
 3. Saat saya mengetikkan teks ke dalam elemen `#editor`, elemen `#preview` akan langsung menampilkan kontennya.
 4. Saat saya memasukkan markdown yang sesuai (seperti GitHub) ke dalam elemen `#editor`, teks itu dirender sebagai HTML di elemen `#preview` saat saya mengetik. (PETUNJUK: Kamu tidak perlu membuat Markdown sendiri tapi cukup dengan mengimpor library [Marked](https://cdnjs.com/libraries/marked)).
 5. Saat Markdown previewer saya pertama kali dimuat, teks default di bidang #editor harus berisi teks markdown yang valid yang mewakili setidaknya satu elemen dari masing-masing elemen berikut:
-   - elemen judul (ukuran H1)
-   - elemen subjudul (ukuran H2)
-   - tautan
-   - kode dalam teks
-   - blok kode
-   - elemen daftar
-   - kutipan
-   - gambar
-   - teks tebal.
+- elemen judul (ukuran H1)
+- elemen subjudul (ukuran H2)
+- tautan
+- kode dalam teks
+- blok kode
+- elemen list
+- quote
+- gambar
+- teks tebal.
 7. Saat Markdown previewer saya pertama kali dimuat, ada markdown default dalam `#editor` yang di-render sebagai HTML di elemen `#preview`
 
 ## Coding
