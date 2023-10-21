@@ -4,7 +4,7 @@
 
 ## Teknologi yang digunakan
 
-Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, Bootstrap, SASS, React, and jQuery. Dalam project [Markdown Previewer](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer) ini, saya coba kombinasi HTML, SASS dan React 👍🏻.
+Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, Bootstrap, SASS, React, and jQuery. Dalam project [Markdown Previewer](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer) ini, saya coba kombinasi HTML, SASS dan React (JavaScript) 👍🏻.
 
 ## User Stories
 
