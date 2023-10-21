@@ -8,17 +8,14 @@ Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, 
 
 ## User Stories
 
-1. Saya dapat melihat elemen pembungkus dengan ID `quote-box`
-2. Di dalam `quote-box`, saya dapat melihat elemen dengan ID `text`
-3. Di dalam `quote-box`, saya dapat melihat elemen dengan ID `author`
-4. Di dalam `quote-box`, saya dapat melihat elemen yang dapat diklik dengan ID `new-quote`
-5. Di dalam `quote-box`, saya dapat melihat elemen anchor yang dapat diklik dengan ID `tweet-quote`
-6. Saat pertama kali dimuat, mesin kutipan saya akan menampilkan kutipan acak di elemen dengan ID `text`
-7. Saat pertama kali dimuat, mesin kutipan saya akan menampilkan nama penulis kutipan acak di elemen dengan ID `author`
-8. Ketika tombol dengan ID `new-quote` diklik, mesin kutipan harus mengambil kutipan baru dan menampilkannya di elemen `text`
-9. Mesin kutipan harus menampilkan nama penulis ketika tombol dengan ID `new-quote` diklik dan menampilkannya di elemen `author`
-10. Saya dapat membagikan kutipan saat ini dengan mengklik tombol dengan ID `tweet-quote`. Elemen ini harus mencakup `"twitter.com/intent/tweet"` dalam atribut `href` untuk mengirim tweet kutipan saat ini.
-11. Elemen pembungkus `quote-box` harus berada di tengah secara horizontal.
+## User Stories:
+
+1. Saya dapat melihat elemen textarea dengan ID yang sesuai "editor."
+2. Saya dapat melihat elemen dengan ID yang sesuai "preview."
+3. Saat saya memasukkan teks ke dalam elemen #editor, elemen #preview diperbarui saat saya mengetik untuk menampilkan konten dari textarea.
+4. Saat saya memasukkan markdown yang sesuai dengan GitHub ke dalam elemen #editor, teks itu dirender sebagai HTML di elemen #preview saat saya mengetik. (PETUNJUK: Anda tidak perlu menguraikan Markdown sendiri - Anda dapat mengimpor pustaka Marked untuk ini: [Marked Library](https://cdnjs.com/libraries/marked)).
+5. Saat Markdown previewer saya pertama kali dimuat, teks default di bidang #editor harus berisi teks markdown yang valid yang mewakili setidaknya satu elemen dari masing-masing elemen berikut: elemen judul (ukuran H1), elemen subjudul (ukuran H2), tautan, kode dalam teks, blok kode, elemen daftar, kutipan, gambar, dan teks tebal.
+6. Saat Markdown previewer saya pertama kali dimuat, markdown default dalam bidang #editor harus di-render sebagai HTML di elemen #preview.
 
 ## Coding
 
