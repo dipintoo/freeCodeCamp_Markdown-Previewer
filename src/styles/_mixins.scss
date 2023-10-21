@@ -1,0 +1,12 @@
+@mixin hover-effect($color) {
+  &:hover {
+    color: $color;
+    cursor: pointer;
+  }
+}
+
+@mixin code-font-styles {
+  font-family: $code-font-family;
+  font-style: italic;
+  font-size: $code-font-size;
+}

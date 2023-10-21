@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rubik:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #060606;
+  padding: 0.64rem;
+  color: white;
+  border-block: 1px solid #34363e;
+  font-weight: 500;
+}
+.toolbar i {
+  width: 24px;
+  margin-left: 5px;
+}
+.toolbar i:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.fa-retweet:hover,
+.fa-compress:hover,
+.fa-arrows-alt:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.editorWrap textarea {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: gray;
+  background-color: #1d1e22;
+  width: 100%;
+  min-height: 14rem;
+  resize: vertical;
+  outline: none;
+  border: none;
+  padding: 1.6rem;
+  margin-bottom: -0.42rem;
+}
+
+.previewWrap {
+  background-color: white;
+  color: #1d1e22;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
+
+.maximized {
+  width: 100%;
+  min-height: 100vh;
+}
+.maximized textarea {
+  min-height: 100vh;
+  resize: none;
+}
+
+.hide {
+  display: none;
+}
+
+#preview {
+  padding-inline: 1.6rem;
+}
+#preview blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 1.6rem;
+  margin-left: 25px;
+}
+#preview > p > code {
+  padding: 1.6rem;
+}
+#preview code {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  font-style: italic;
+  font-size: 0.875rem;
+}
+#preview pre {
+  display: block;
+  overflow: auto;
+  background: #efefef;
+  border-radius: 0.4rem;
+  padding: 1.6rem;
+  line-height: 1.2;
+}
+#preview table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+#preview td,
+#preview th {
+  border-block: 1px solid #060606;
+  padding-inline: 1.6rem;
+  padding-block: 1.6rem;
+}
+#preview img {
+  display: block;
+  max-width: 20rem;
+  margin: 4.8rem auto;
+}
+
+/*# sourceMappingURL=App.css.map */

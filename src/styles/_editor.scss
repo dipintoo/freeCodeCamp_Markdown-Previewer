@@ -1,0 +1,14 @@
+.editorWrap {
+  textarea {
+    @include code-font-styles;
+    color: $editor-text-color;
+    background-color: $editor-bg-color;
+    width: 100%;
+    min-height: $min-editor-height;
+    resize: vertical;
+    outline: none;
+    border: none;
+    padding: $base-padding;
+    margin-bottom: -0.42rem;
+  }
+}

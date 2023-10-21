@@ -1,0 +1,15 @@
+// Global Styles
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rubik:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $font-weight-body;
+  line-height: 1.5;
+  color: $text-color;
+  text-align: left;
+  margin: 0;
+}

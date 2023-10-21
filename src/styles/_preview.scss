@@ -1,0 +1,66 @@
+.previewWrap {
+  background-color: $preview-bg-color;
+  color: $preview-color;
+  min-height: $min-preview-height;
+  overflow-wrap: break-word;
+}
+
+.maximized {
+  width: 100%;
+  min-height: 100vh;
+
+  textarea {
+    min-height: 100vh;
+    resize: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+#preview {
+  padding-inline: $base-padding;
+
+  blockquote {
+    border-left: 3px solid $markdown-quote-border;
+    color: $markdown-quote-border;
+    padding-left: $base-padding;
+    margin-left: 25px;
+  }
+
+  > p > code {
+    padding: $base-padding;
+  }
+
+  code {
+    @include code-font-styles;
+  }
+
+  pre {
+    display: $block-display;
+    overflow: auto;
+    background: $pre-bg-color;
+    border-radius: 0.4rem;
+    padding: $base-padding;
+    line-height: 1.2;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+  td,
+  th {
+    border-block: 1px solid $table-border;
+    padding-inline: $base-padding;
+    padding-block: $base-padding;
+  }
+
+  img {
+    display: $block-display;
+    max-width: $img-max-width;
+    margin: $base-padding * 3 auto;
+  }
+}
