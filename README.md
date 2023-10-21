@@ -24,7 +24,7 @@ Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, 
    - teks tebal
 7. Saat Markdown previewer saya pertama kali dimuat, ada markdown default dalam `#editor` yang di-render sebagai HTML di elemen `#preview`
 
-## Coding
+## Coding dan Testing
 
 Kamu bisa ngoding langsung menggunakan template [codepen](https://codepen.io/pen?template=MJjpwO). Di dalamnya sudah include aplikasi testing dari freeCodeCamp. Jangan lupa **Select Test Suite** sesuai dengan project mana yang kamu kerjakan saat ini. 
 
