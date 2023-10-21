@@ -8,8 +8,6 @@ Sebenarnya kamu bebas menggunakan kombinasi manapun dari HTML, JavaScript, CSS, 
 
 ## User Stories
 
-## User Stories:
-
 1. Saya dapat melihat elemen `textarea` dengan ID `editor`
 2. Saya dapat melihat elemen dengan ID `preview`
 3. Saat saya mengetikkan teks ke dalam elemen `#editor`, elemen `#preview` akan langsung menampilkan kontennya.
