@@ -35,4 +35,4 @@ Setelah lolos semua test, kamu bisa menggunakan Url dari codepen untuk mengisi [
 Semangat dan selamat mencoba! 🚀📜  
 
 
-[***Next Project - [3/5] Drum Machine >>***]()
+[***Next Project - [3/5] Drum Machine >>***](https://github.com/dipintoo/freeCodeCamp_Drum-Machine)
